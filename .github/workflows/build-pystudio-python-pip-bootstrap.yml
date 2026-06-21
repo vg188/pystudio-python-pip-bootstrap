@@ -105,7 +105,7 @@ jobs:
             --disable-x11
           )
 
-          ./build-termux.sh "${args[@]}"
+          bash ./build-termux.sh "${args[@]}"
 
       - name: Collect bootstrap assets
         shell: bash
