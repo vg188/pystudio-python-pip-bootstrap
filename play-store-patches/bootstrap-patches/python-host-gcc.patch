@@ -1,6 +1,6 @@
 --- a/scripts/build/setup/termux_setup_build_python.sh
 +++ b/scripts/build/setup/termux_setup_build_python.sh
-@@ -63,26 +63,22 @@ termux_setup_build_python() {
+@@ -63,24 +63,19 @@ termux_setup_build_python() {
  			# We are using env -i as there are a lot of environment variable that need
  			# to be unset, so better just start from scratch
 -			# Also whoever on crack wrote the build scripts for python, didn't think of
