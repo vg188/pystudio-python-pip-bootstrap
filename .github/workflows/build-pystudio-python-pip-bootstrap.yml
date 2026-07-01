@@ -1,18 +1,6 @@
 name: Build PyStudio Python Pip Bootstrap
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/workflows/build-pystudio-python-pip-bootstrap.yml"
-      - "PYSTUDIO_PYTHON_PIP_BOOTSTRAP.md"
-      - "build-termux.sh"
-      - "scripts/**"
-      - "f-droid-patches/**"
-      - "play-store-patches/**"
-      - "plugins/**"
-      - "custom-packages/**"
   workflow_dispatch:
     inputs:
       architectures:
